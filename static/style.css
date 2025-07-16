@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Russo One', sans-serif;
+  background-image: url("/static/anime-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #ffffff;
+  text-align: center;
+}
+
+.form-container {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 2rem;
+  margin: 4rem auto;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #ffcc00;
+  text-shadow: 2px 2px #000;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input[type="number"] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  margin: 1rem 0;
+  font-size: 1rem;
+  width: 60%;
+}
+
+button {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  background: linear-gradient(to right, #ff5e62, #ff9966);
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.result-container {
+  margin-top: 2rem;
+}
+
+.result-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #00ffd5;
+}
+
+.result-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.result-container li {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  input[type="number"] {
+    width: 100%;
+  }
+}

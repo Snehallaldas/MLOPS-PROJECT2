@@ -9,3 +9,5 @@ scikit-learn
 tensorflow
 comet-ml
 dvc
+dvc-gs
+flask
